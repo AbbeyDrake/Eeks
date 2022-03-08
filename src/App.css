@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #2E3645;
+  color: #E5EBF1;
 }
 
 .App-logo {
@@ -36,3 +38,43 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron {
+  background-image: url("../public/assets/images/armadillo.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 36vh;
+  margin: 0;
+  margin-bottom: 0;
+  padding: 30px;
+  color: rgb(247, 247, 247);
+}
+
+.jumbotron h1 {
+  color: #FF4A34;
+  font-size: 8rem;
+  margin-bottom: 0;
+}
+
+.navbar {
+  background-color:#A77449;
+  color: #E5EBF1;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Abril Fatface';
+}
+
+p {text-align: center;}
+
+h3, .card-header {
+    font-family: 'Courier Prime', Courier, monospace;
+
+}
+
+.nav-link {
+  color: black;
+}
+
