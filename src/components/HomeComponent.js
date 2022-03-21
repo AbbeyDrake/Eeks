@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 function RenderCarousel(){
 
         return(
-          <div className='col-sm-8 offset-2'>
+          <div className='col offset-4'>
             <Carousel autoPlay showArrows={true} infiniteLoop>
             {ARTLIST.map((artCard)=>{
                 return(

@@ -19,7 +19,7 @@ function ShopComponent(props) {
             <Row>
                 <Col className="col-sm-6 offset-sm-3">
                     
-                    <p>Looking for unique, local plant shops and nurseries to grow your plant family? Denver is home to many plant havens where you can browse extensive collections, take classes and learn more about plant care, and connect with the community through events. </p>
+                    <p>Looking for unique, hand-made art by a local artist? Eek's style is a beautiful combination of creepy and elegant, and will enhance your collection. </p>
                    
                 </Col>
                 <Col className="col mb-4">

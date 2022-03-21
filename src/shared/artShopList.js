@@ -11,7 +11,13 @@ export const ARTSHOPLIST = [
         id: 1,
         name: "Armadillo",
         image: "/assets/images/armadillo.JPG",
-        description: "Armadillo in the desert"
+        description: "Armadillo in the desert. Made with paper and paint."
+    },
+    {
+        id: 2,
+        name: "Desert Snake Large",
+        image: "/assets/images/desertsnakelarge.JPG",
+        description: "Larger version of desert snake with a different composition of desert plants. Made with paper and paint."
     }
-
+    
 ]

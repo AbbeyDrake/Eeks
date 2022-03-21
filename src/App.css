@@ -40,11 +40,11 @@
 }
 
 .jumbotron {
-  background-image: url("../public/assets/images/armadillo.JPG");
+  background-image: url("../public/assets/images/desertsnake.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 36vh;
+  height: 40vh;
   margin: 0;
   margin-bottom: 0;
   padding: 30px;
@@ -54,7 +54,8 @@
 .jumbotron h1 {
   color: #FF4A34;
   font-size: 8rem;
-  margin-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -78,3 +79,16 @@ h3, .card-header {
   color: black;
 }
 
+
+.carousel {
+  height: 30rem;
+  max-width: 20rem;
+}
+
+.card-body{
+  color: #2E3645;
+}
+
+.card{
+  margin-bottom: 10rem;
+}
