@@ -7,7 +7,7 @@ import { Carousel } from 'react-responsive-carousel';
 function RenderCarousel(){
 
         return(
-          <div className='col offset-4'>
+          <div className='col'>
             <Carousel autoPlay showArrows={true} infiniteLoop>
             {ARTLIST.map((artCard)=>{
                 return(
@@ -25,25 +25,20 @@ function RenderCarousel(){
 function HomeComponent() {
   return (
   <div>
-     <div className="container">
+     <div className="container mt-3">
           <div className="row">
-              <div className="col-sm-8 offset-2">
+              <div className="col">
                   <h1>Elizabeth Eaton.</h1>
-                  <p>Short Bio Here
-                  </p>
-                  
+                  <p>LOREM IPSUM BIO TEXT GOES HERE
+                  </p> 
+              </div>
+              <div className= "col">
+                <RenderCarousel></RenderCarousel>
               </div>
           </div>
       </div>
 
     <hr></hr>
-
-     
-      <div className="container">
-        <div className="row">
-            <RenderCarousel></RenderCarousel>
-        </div>
-      </div>
   </div>
   );
 }

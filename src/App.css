@@ -81,8 +81,13 @@ h3, .card-header {
 
 
 .carousel {
-  height: 30rem;
-  max-width: 20rem;
+  /* max-height: 30rem; */
+  /* max-width: 28rem; */
+  /* height: 30rem; */
+  /* max-width: 20rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-body{
