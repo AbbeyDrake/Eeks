@@ -36,7 +36,7 @@ class Contact extends Component {
                 </div>
                 <div className = "row">
                     <div className= "col">
-                    <Card>
+                    <Card className="mr-3">
                         <CardHeader>Contact Us</CardHeader>
                         <CardBody>
                             <div className="row row-content align-items-center">
