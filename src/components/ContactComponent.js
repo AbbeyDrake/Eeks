@@ -34,41 +34,48 @@ class Contact extends Component {
                         <hr />
                     </div>
                 </div>
-    
-                <div className="row row-content align-items-center">
-                    <div className="col">
-                        <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
-                    </div>
-                </div>
-
-                <div className="row row-content align-items-center">
-                    <div className="col-12">
-                        <hr />
-                        <h3>Send us a Message!</h3>
-                        
+                <div className = "row">
+                    <div className= "col">
+                    <Card>
+                        <CardHeader>Contact Us</CardHeader>
+                        <CardBody>
+                            <div className="row row-content align-items-center">
+                                <div className= "col">
+                            <Button className = "m-1"><i className="fa fa-instagram fa-lg"></i></Button>
+                            <Button className = "m-1"><i className="fa fa-linkedin fa-lg"></i></Button>
+                            <Button className = "m-1"><i className="fa fa-github fa-lg"></i></Button>
+                            </div>
+                                
+                                <div className="col">
+                                    <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
+                                    <a role="button" className="btn btn-link" href="mailto:fakeemail@fakeemail.co"><i className="fa fa-envelope-o" /> campsites@nucamp.co</a>
+                                </div>
+                            </div>
+                        </CardBody>
+                    </Card>
                     </div>
                     <div className="col mb-4 contact-box" >
-                    <Form >
-                        <FormGroup>
-                            <Label htmlFor="username">Name</Label>
-                            <Input type="text" id="name" name="name" innerRef={input => this.name = input}/>
-                        </FormGroup>
-                        <FormGroup>
-                            <Label htmlFor="telephone">Telephone Number</Label>
-                            <Input type="telephone" id="telephone" name="telephone" innerRef={input => this.telephone= input}/>
-                        </FormGroup>
-                        <FormGroup>
-                            <Label htmlFor="email">Email</Label>
-                            <Input type="email" id="email" name="email" innerRef={input => this.email= input}/>
-                        </FormGroup>
-                        <FormGroup>
-                            <Label htmlFor="text">Your Message</Label>
-                            <Input type="textarea" rows="5" id="text" name="text" innerRef={input => this.message= input}/>
-                        </FormGroup>
-                        
-                        <Button type="submit" value="submit" color="primary">Submit</Button>
-                    </Form>
+                        <h3>Send us a Message!</h3>
+                        <Form >
+                            <FormGroup>
+                                <Label htmlFor="username">Name</Label>
+                                <Input type="text" id="name" name="name" innerRef={input => this.name = input}/>
+                            </FormGroup>
+                            <FormGroup>
+                                <Label htmlFor="telephone">Telephone Number</Label>
+                                <Input type="telephone" id="telephone" name="telephone" innerRef={input => this.telephone= input}/>
+                            </FormGroup>
+                            <FormGroup>
+                                <Label htmlFor="email">Email</Label>
+                                <Input type="email" id="email" name="email" innerRef={input => this.email= input}/>
+                            </FormGroup>
+                            <FormGroup>
+                                <Label htmlFor="text">Your Message</Label>
+                                <Input type="textarea" rows="5" id="text" name="text" innerRef={input => this.message= input}/>
+                            </FormGroup>
+                            
+                            <Button type="submit" value="submit" color="primary">Submit</Button>
+                        </Form>
 
 
 
@@ -111,6 +118,7 @@ class Contact extends Component {
                             </Row> */}
                     </div>
                 </div>
+                
             </div>
         );
     }  
