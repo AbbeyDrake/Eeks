@@ -46,7 +46,7 @@
   background-position: center;
   height: 40vh;
   margin: 0;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   padding: 30px;
   color: rgb(247, 247, 247);
 }
@@ -79,6 +79,11 @@ h3, .card-header {
   color: black;
 }
 
+.contact-box {
+  background-color: #A77449;
+  padding-bottom: 15px !important;
+  padding-top: 15px !important;
+}
 
 .carousel {
   /* max-height: 30rem; */

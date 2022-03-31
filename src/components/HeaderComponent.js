@@ -57,7 +57,7 @@ class Header extends Component {
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className='nav-link' to='/plantcare'>
+                  <NavLink className='nav-link' to='/contact'>
                     Contact
                   </NavLink>
                 </NavItem>
