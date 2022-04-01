@@ -4,12 +4,13 @@ import { ARTLIST } from '../shared/artList';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-function RenderCarousel(){
+
+function RenderCarousel({content}){
 
         return(
           <div className='col'>
             <Carousel autoPlay showArrows={true} infiniteLoop>
-            {ARTLIST.map((artCard)=>{
+            {content.map((artCard)=>{
                 return(
                     <div key = {artCard.id}>
                         <h1>{artCard.title}</h1>
@@ -23,6 +24,9 @@ function RenderCarousel(){
 } 
 
 function HomeComponent() {
+  const featuredArt = ARTLIST.filter(
+    (item) => item.featured === true
+  );
   return (
   <div>
      <div className="container mt-3">
@@ -33,7 +37,8 @@ function HomeComponent() {
                   </p> 
               </div>
               <div className= "col">
-                <RenderCarousel></RenderCarousel>
+                <h2>Featured New Work</h2>
+                <RenderCarousel content = {featuredArt}></RenderCarousel>
               </div>
           </div>
       </div>

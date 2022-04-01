@@ -65,13 +65,13 @@
 }
 
 h1 {
-  font-family: 'Abril Fatface';
+  font-family: 'Palette Mosaic';
 }
 
 p {text-align: center;}
 
-h3, .card-header {
-    font-family: 'Courier Prime', Courier, monospace;
+h3, h2, .card-header {
+    font-family: 'Josefin Sans', cursive;
 
 }
 
@@ -83,6 +83,7 @@ h3, .card-header {
   background-color: #A77449;
   padding-bottom: 15px !important;
   padding-top: 15px !important;
+  max-height: 550px;
 }
 
 .carousel {
@@ -95,10 +96,21 @@ h3, .card-header {
   justify-content: center;
 }
 
+.contact-carousel{
+  width: 30%;
+}
+
 .card-body{
   color: #2E3645;
 }
 
-.card{
-  margin-bottom: 10rem;
+.card-header, .card-img-overlay{
+  color: #2E3645
 }
+
+.card{
+  margin-bottom: 3rem;
+  min-height: 550px;
+  max-height: 575px;
+}
+

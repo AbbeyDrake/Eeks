@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Card, CardBody, CardTitle, CardImg, CardImgOverlay, CardHeader, Row, Col, Breadcrumb, BreadcrumbItem} from 'reactstrap';
+import { Card, CardBody, Button, CardTitle, CardImg, CardImgOverlay, CardHeader, Row, Col, Breadcrumb, BreadcrumbItem} from 'reactstrap';
 import { ARTLIST } from '../shared/artList'
 
 class ArtShop extends Component {
@@ -12,6 +12,7 @@ class ArtShop extends Component {
 
     render() {
         {
+             
             const shopItem = this.state.artList.map(shopItem => {
                 return (
                     <div className="col">
@@ -21,7 +22,11 @@ class ArtShop extends Component {
                             </CardImg>
                             <CardImgOverlay>{shopItem.name}</CardImgOverlay>
                             <CardBody>{shopItem.description}</CardBody>
-                            <CardBody>{shopItem.price}</CardBody>
+                               <CardBody> 
+                                   <Button type="submit">
+                                {shopItem.price}
+                                </Button>
+                            </CardBody>
                         </Card>
                     </div>
                 );
