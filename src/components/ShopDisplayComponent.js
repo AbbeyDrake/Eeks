@@ -16,7 +16,7 @@ class ArtShop extends Component {
             const shopItem = this.state.artList.map(shopItem => {
                 return (
                     <div className="col">
-                        <Card style={{width: 20 + "rem"}}>
+                        <Card className = "shopCard" style={{width: 20 + "rem"}}>
                             <CardImg
                             src={shopItem.image} alt={shopItem.name} >
                             </CardImg>

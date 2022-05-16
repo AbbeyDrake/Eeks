@@ -36,14 +36,18 @@ function HomeComponent() {
                   <p>LOREM IPSUM BIO TEXT GOES HERE
                   </p> 
               </div>
-              <div className= "col">
-                <h2>Featured New Work</h2>
-                <RenderCarousel content = {featuredArt}></RenderCarousel>
-              </div>
           </div>
-      </div>
-
-    <hr></hr>
+          <div className='row'>
+            <div className= "col">
+                    <h2>Featured New Work</h2>
+            </div>    
+          </div>
+          <div className='row'>
+            <div className='col carousel-col'>
+            <RenderCarousel content = {featuredArt}></RenderCarousel>
+            </div>
+          </div>
+        </div>   
   </div>
   );
 }

@@ -71,7 +71,6 @@ class Contact extends Component {
                                 </CardBody>
                             </Card>
                         </div>
-                        <div className="row contact-carousel"><RenderCarousel></RenderCarousel></div>
                     </div>
                     <div className="col mb-4 contact-box" >
                         <h3>Send us a Message!</h3>
